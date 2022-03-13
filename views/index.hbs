@@ -1,0 +1,41 @@
+{{!-- <form
+  class="flex"
+  action="/artist"
+  method="get"
+  enctype="application/json"
+>
+  <label for="Artist">Artist:</label>
+  <input
+    id="artist-name"
+    name="artist"
+    type="text"
+    value=""
+    placeholder="Name of an Artist"
+  />
+
+  <button type="submit">Search for an Artist!</button>
+</form> --}}
+
+
+<form action="/artist-search" method="get">
+<input type="text" placeholder="Search for an artist!" name="artists">
+<button type="submit">Search for an artist!</button>
+</form>
+
+{{!-- 
+
+
+<div class="home-container">
+  <div class="form-wrapper">
+
+    <form action="/artist-search" class="form-group home-form" method="get">
+      <input id="artist-input"
+      placeholder="Search for an artist!" 
+      class="form-control home-input" 
+      type="text" 
+      name="artists" 
+      >
+      <button class="btn btn-primary home-search" type="submit">Search for an Artist</button>
+    </form>
+  </div>
+</div> --}}
